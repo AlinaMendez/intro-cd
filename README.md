@@ -53,3 +53,10 @@ pyenv versions
 ```
 
 **NOTA:** cuando crea un entorno virtual, **la versión de python activa en ese momento se copia dentro de la carpeta `.venv/`**, y cada vez que active dicho entorno, esa será la versión que se usará, sin importar lo que haga con `pyenv`. Si desea crear un entorno virtual con otra versión de python, puede borrar el entorno existente (`rm -r .venv/`), activar con pyenv la versión que desea usar, y luego volver a crear el entorno virtual.
+
+
+## Detalle del trabajo exploratorio realizado
+
+Se cargaron los dataframe, y se exploraron los datos. Se comenzó con una visualización de cada df, además se analizaron nulos y duplicados.
+Luego se procedio a analizar los personajes con mayor cantidad de palabras, siguiendo con la evolución de las obras a lo largo de los años.
+Por último se cuentan las palabras, y para ello se hace una limpieza de los datos del df de párrafos. 
